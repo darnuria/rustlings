@@ -708,6 +708,9 @@ a mutable variable. Or, you might write code utilizing recursion
 and a match clause. In Rust you can take another functional
 approach, computing the factorial elegantly with ranges and iterators."""
 
+[[exercises]]
+path = "exercises/standard_library_types/iterators5.rs"
+mode = "test"
 # TRAITS
 
 [[exercises]]
