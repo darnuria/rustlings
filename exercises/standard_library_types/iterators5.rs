@@ -4,10 +4,10 @@ pub fn fibonacci(i: u64) -> u64 {
     // Complete this function to return the ith fibonacci number
     // Do not use:
     // - return
-    // For extra fun don't use:
+    // Try not to use:
     // - imperative style loops (for, while)
-    // - let
-    // For the most fun don't use:
+    // - additional variables
+    // For an extra challenge, don't use:
     // - recursion
     // Execute `rustlings hint iterators5` for hints
 }
