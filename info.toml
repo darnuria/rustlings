@@ -709,8 +709,17 @@ and a match clause. In Rust you can take another functional
 approach, computing the factorial elegantly with ranges and iterators."""
 
 [[exercises]]
+name = "iterators5"
 path = "exercises/standard_library_types/iterators5.rs"
 mode = "test"
+hint = """
+Like in iterator4 we face the problem involving keeping track of previous calculation.
+You can solve it by using a loop with mutable variable, recursion and match,
+or dive into Range and Iterator usage.
+https://doc.rust-lang.org/std/ops/struct.Range.html
+https://doc.rust-lang.org/std/iter/index.html
+"""
+
 # TRAITS
 
 [[exercises]]

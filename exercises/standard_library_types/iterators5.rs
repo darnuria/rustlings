@@ -9,7 +9,7 @@ pub fn fibonacci(i: u64) -> u64 {
     // - let
     // For the most fun don't use:
     // - recursion
-    // Scroll down for hints.
+    // Execute `rustlings hint iterators5` for hints
 }
 
 #[cfg(test)]
@@ -33,29 +33,3 @@ mod tests {
         );
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// In an imperative language you might write a for loop to iterate through
-// add and keep track of the last two values into a mutable variables.
-// Or you might write code more functionally with recursion and a match clause.
-// But you can also use ranges and iterators to solve this in rust.
